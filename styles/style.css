@@ -8,11 +8,11 @@ body {
 }
 
 main {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .nav {
@@ -21,11 +21,12 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  align-items: center;
 }
 .nav a {
+  transition: transform 0.3s ease;
   text-decoration: none;
   height: max-content;
-  transition: transform 0.3s ease;
   user-select: none;
   font-weight: normal;
 }
@@ -38,8 +39,11 @@ main {
   color: #bbc0c6;
 }
 .nav__icon, .nav__wrapper {
-  font-weight: 600;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
   gap: 15px;
 }
 
@@ -59,12 +63,12 @@ main {
 }
 
 .banner {
-  width: 100%;
   display: flex;
-  flex-grow: 1;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1;
   padding: 20px 0;
   font-size: 18px;
   margin-bottom: 150px;
@@ -79,19 +83,21 @@ main {
 
 .icons-wrapper {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 25px;
   font-size: 40px;
   margin-top: 40px;
 }
 
 .contact {
-  width: 80%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80%;
+  height: 100%;
 }
 .contact__link {
   text-decoration: none;
@@ -103,8 +109,10 @@ main {
 }
 .contact__wrapper {
   display: flex;
-  gap: 15px;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
   flex-grow: 1;
   justify-content: center;
   align-items: center;
@@ -112,10 +120,11 @@ main {
 }
 
 .link__wrapper {
-  gap: 5px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 5px;
   font-size: 30px;
   transition: transform 0.3s ease;
   user-select: none;
@@ -125,18 +134,20 @@ main {
 }
 
 .skills-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
   margin-top: 0.5em;
-  display: flex;
   gap: 30px;
   width: 60%;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   user-select: none;
 }
 .skills-icons__wrapper {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 10px;

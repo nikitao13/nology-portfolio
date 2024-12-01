@@ -1,0 +1,15 @@
+@use 'variables' as v;  
+@mixin flex-center($direction: column, $justify: center, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin transition(
+  $property: transform,
+  $duration: v.$transition-speed,
+  $easing: ease
+) {
+  transition: $property $duration $easing;
+}
