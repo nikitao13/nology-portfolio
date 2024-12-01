@@ -82,7 +82,7 @@ main {
   }
 
   &__title {
-    font-weight: 300;
+    font-weight: 400;
   }
 
   &__skills {
@@ -133,6 +133,7 @@ main {
   font-size: v.$font-size-title;
   transition: transform v.$transition-speed ease;
   user-select: none;
+  font-weight: 500;
 
   &:hover {
     transform: scale(1.1);

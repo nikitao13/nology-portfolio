@@ -78,7 +78,7 @@ main {
   font-family: "Roboto Mono", monospace;
 }
 .banner__title {
-  font-weight: 300;
+  font-weight: 400;
 }
 .banner__skills {
   display: flex;
@@ -138,6 +138,7 @@ main {
   font-size: 26px;
   transition: transform 0.3s ease;
   user-select: none;
+  font-weight: 500;
 }
 .link__wrapper:hover {
   transform: scale(1.1);
