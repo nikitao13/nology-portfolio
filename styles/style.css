@@ -96,13 +96,35 @@ main {
   justify-content: center;
   align-items: center;
 }
+.contact__link {
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+.contact__link:visited {
+  color: black;
+}
 .contact__wrapper {
   display: flex;
+  gap: 15px;
   flex-direction: column;
   flex-grow: 1;
   justify-content: center;
   align-items: center;
   margin-bottom: 5vh;
+}
+
+.link__wrapper {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  transition: transform 0.3s ease;
+  user-select: none;
+}
+.link__wrapper:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
