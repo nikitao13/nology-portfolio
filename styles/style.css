@@ -168,11 +168,13 @@ main {
 
 .projects {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 45px;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 100px;
 }
 .projects__card {
   display: flex;
@@ -180,8 +182,11 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 33.33%;
   gap: 5px;
+}
+.projects__card__wrapper {
+  display: flex;
+  gap: 10px;
 }
 .projects__card h2 {
   width: max-content;

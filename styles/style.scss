@@ -159,21 +159,22 @@ main {
 }
 
 .projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+  @include m.flex-center(row, center, center);
+  gap: 45px;
   flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 100px;
 
   &__card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include m.flex-center(column, center, center);
     flex-wrap: wrap;
-    width: 33.33%;
+    // width: 33.33%;
     gap: 5px;
+
+    &__wrapper {
+      display: flex;
+      gap: 10px;
+    }
 
     & h2 {
       width: max-content;
