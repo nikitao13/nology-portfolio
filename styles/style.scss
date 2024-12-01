@@ -73,7 +73,7 @@ main {
   width: 100%;
   flex-grow: 1;
   padding: 20px 0;
-  font-size: v.$font-size-banner;
+  font-size: 16px;
   margin-bottom: 150px;
 
   &__wrapper {
@@ -90,7 +90,7 @@ main {
   @include m.flex-center(row, center);
   gap: 25px;
   font-size: v.$icon-size;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .contact {
@@ -114,14 +114,14 @@ main {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5vh;
+    margin-bottom: 15vh;
   }
 }
 
 .link__wrapper {
   @include m.flex-center(row, center);
   gap: 5px;
-  font-size: v.$font-size-default;
+  font-size: v.$font-size-title;
   transition: transform v.$transition-speed ease;
   user-select: none;
 

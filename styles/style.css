@@ -70,7 +70,7 @@ main {
   width: 100%;
   flex-grow: 1;
   padding: 20px 0;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 150px;
 }
 .banner__wrapper {
@@ -88,7 +88,7 @@ main {
   align-items: center;
   gap: 25px;
   font-size: 40px;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .contact {
@@ -116,7 +116,7 @@ main {
   flex-grow: 1;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5vh;
+  margin-bottom: 15vh;
 }
 
 .link__wrapper {
@@ -125,7 +125,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  font-size: 30px;
+  font-size: 26px;
   transition: transform 0.3s ease;
   user-select: none;
 }
