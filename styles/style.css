@@ -124,4 +124,25 @@ main {
   transform: scale(1.1);
 }
 
+.skills-icons {
+  font-size: 40px;
+  margin-top: 0.5em;
+  display: flex;
+  gap: 30px;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.skills-icons__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.skills-icons__title {
+  font-size: 26px;
+}
+
 /*# sourceMappingURL=style.css.map */
