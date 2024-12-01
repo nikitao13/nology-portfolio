@@ -71,7 +71,7 @@ main {
   flex-grow: 1;
   padding: 20px 0;
   font-size: 16px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 .banner__wrapper {
   width: 80%;
@@ -79,6 +79,16 @@ main {
 }
 .banner__title {
   font-weight: 300;
+}
+.banner__skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.banner__heading {
+  margin-bottom: 25px;
 }
 
 .icons-wrapper {
@@ -154,6 +164,27 @@ main {
 }
 .skills-icons__title {
   font-size: 26px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.projects__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 33.33%;
+  gap: 5px;
+}
+.projects__card h2 {
+  width: max-content;
 }
 
 /*# sourceMappingURL=style.css.map */
