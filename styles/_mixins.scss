@@ -1,4 +1,4 @@
-@use 'variables' as v;  
+@use "variables" as v;
 @mixin flex-center($direction: column, $justify: center, $align: center) {
   display: flex;
   flex-direction: $direction;
@@ -12,4 +12,28 @@
   $easing: ease
 ) {
   transition: $property $duration $easing;
+}
+
+@mixin small-tablet {
+  @media screen and (min-width: 577px) {
+    @content;
+  }
+}
+
+@mixin large-tablet {
+  @media screen and (min-width: 769px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (min-width: 1025px) {
+    @content;
+  }
+}
+
+@mixin computer {
+  @media screen and (min-width: 1081px) {
+    @content;
+  }
 }
